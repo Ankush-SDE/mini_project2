@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Learning Hub | B.Tech Excellence Portal</title>
+    <meta name="description" content="The ultimate learning repository for B.Tech students. Access curated YouTube lectures, notes, coding roadmaps, and previous year questions.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://www.gla.ac.in/images/gla-university-logo1.webp" alt="GLA Logo" style="height: 40px; vertical-align: middle; margin-right: 10px;">
+            <span class="gradient-text">Smart</span>Learning
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#subjects">Subjects</a></li>
+            <li><a href="#roadmap">Roadmap</a></li>
+            <li><a href="#coding">Coding</a></li>
+            <li><a href="#resources" class="btn-primary">PYQ Library</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <div class="gla-label fade-in" style="background: rgba(255, 255, 255, 0.1); padding: 5px 15px; border-radius: 20px; display: inline-block; margin-bottom: 1rem; border: 1px solid var(--glass-border);">
+                GLA University, Mathura Campus
+            </div>
+            <h1 class="fade-in">Master Your <span class="gradient-text">Engineering Journey</span></h1>
+            <p class="fade-in">A premium hub for GLA students to excel in academics, master coding, and navigate their 4-year success roadmap with curated resources.</p>
+            <div class="hero-btns fade-in">
+                <a href="#roadmap" class="btn-outline">View Roadmap</a>
+                <a href="#coding" class="btn-primary">Start Coding</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="gla-campus-image fade-in" style="padding: 0 10%; margin-top: -100px; position: relative; z-index: 5;">
+        <img src="https://www.gla.ac.in/images/campus-life-banner.jpg" alt="GLA University Mathura" style="width: 100%; border-radius: 30px; box-shadow: 0 30px 60px rgba(0,0,0,0.6); border: 2px solid var(--glass-border);">
+    </div>
+
+    <!-- Subjects Section -->
+    <section id="subjects" class="subjects-section">
+        <div class="section-header">
+            <h2>Core <span class="gradient-text">Academic Subjects</span></h2>
+            <p>High-quality lecture series and notes for B.Tech essentials.</p>
+        </div>
+
+        <div class="subject-grid">
+            <div class="subject-card">
+                <div class="card-img"><img src="https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&q=80&w=400" alt="Mathematics"></div>
+                <div class="card-body">
+                    <div class="card-icon"><i class="fa-solid fa-calculator"></i></div>
+                    <h3>Mathematics I & II</h3>
+                    <div class="card-actions">
+                        <a href="https://www.youtube.com/results?search_query=engineering+mathematics+playlist" target="_blank" class="btn-card yt">Lectures</a>
+                        <a href="#" class="btn-card notes">Notes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="subject-card">
+                <div class="card-img"><img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=400" alt="Physics"></div>
+                <div class="card-body">
+                    <div class="card-icon"><i class="fa-solid fa-atom"></i></div>
+                    <h3>Engineering Physics</h3>
+                    <div class="card-actions">
+                        <a href="https://www.youtube.com/results?search_query=engineering+physics+playlist" target="_blank" class="btn-card yt">Lectures</a>
+                        <a href="#" class="btn-card notes">Notes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="subject-card">
+                <div class="card-img"><img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&q=80&w=400" alt="Programming"></div>
+                <div class="card-body">
+                    <div class="card-icon"><i class="fa-solid fa-code"></i></div>
+                    <h3>Programming Basics</h3>
+                    <div class="card-actions">
+                        <a href="https://www.youtube.com/results?search_query=programming+for+engineers" target="_blank" class="btn-card yt">Lectures</a>
+                        <a href="#" class="btn-card notes">Notes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="subject-card">
+                <div class="card-img"><img src="https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?auto=format&fit=crop&q=80&w=400" alt="Chemistry"></div>
+                <div class="card-body">
+                    <div class="card-icon"><i class="fa-solid fa-flask"></i></div>
+                    <h3>Engineering Chemistry</h3>
+                    <div class="card-actions">
+                        <a href="https://www.youtube.com/results?search_query=engineering+chemistry+playlist" target="_blank" class="btn-card yt">Lectures</a>
+                        <a href="#" class="btn-card notes">Notes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="subject-card">
+                <div class="card-img"><img src="https://images.unsplash.com/photo-1544724569-5f546fd6f2b5?auto=format&fit=crop&q=80&w=400" alt="Electrical"></div>
+                <div class="card-body">
+                    <div class="card-icon"><i class="fa-solid fa-bolt"></i></div>
+                    <h3>Basic Electrical</h3>
+                    <div class="card-actions">
+                        <a href="https://www.youtube.com/results?search_query=basic+electrical+engineering+playlist" target="_blank" class="btn-card yt">Lectures</a>
+                        <a href="#" class="btn-card notes">Notes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="subject-card">
+                <div class="card-img"><img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=400" alt="Graphics"></div>
+                <div class="card-body">
+                    <div class="card-icon"><i class="fa-solid fa-pen-nib"></i></div>
+                    <h3>Engineering Graphics</h3>
+                    <div class="card-actions">
+                        <a href="https://www.youtube.com/results?search_query=engineering+graphics+playlist" target="_blank" class="btn-card yt">Lectures</a>
+                        <a href="#" class="btn-card notes">Notes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4-Year Roadmap Section -->
+    <section id="roadmap" class="roadmap-section">
+        <div class="section-header">
+            <h2>The 4-Year <span class="gradient-text">Success Roadmap</span></h2>
+            <p>Your step-by-step guide to achieving engineering excellence.</p>
+        </div>
+        <div class="roadmap-container">
+            <div class="roadmap-image">
+                <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=800" alt="Success Strategy" style="width: 100%; border-radius: 20px; margin-bottom: 2rem; border: 1px solid var(--glass-border);">
+            </div>
+            <div class="roadmap-item">
+                <div class="year-label">Year 1</div>
+                <div class="roadmap-content">
+                    <h3>The Foundation</h3>
+                    <ul>
+                        <li>Master C/C++ & Problem Solving</li>
+                        <li>Maintain GPA 8.5+ & Academic Basics</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="roadmap-item">
+                <div class="year-label">Year 2</div>
+                <div class="roadmap-content">
+                    <h3>Skill Specialization</h3>
+                    <ul>
+                        <li>Learn MERN Stack Web Development</li>
+                        <li>Advanced Data Structures & STL</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="roadmap-item">
+                <div class="year-label">Year 3</div>
+                <div class="roadmap-content">
+                    <h3>Advanced Mastery</h3>
+                    <ul>
+                        <li>Competitive Programming & LeetCode</li>
+                        <li>System Design & Cloud Computing</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="roadmap-item">
+                <div class="year-label">Year 4</div>
+                <div class="roadmap-content">
+                    <h3>Career Launch</h3>
+                    <ul>
+                        <li>Aptitude & Mock Interview Prep</li>
+                        <li>Secure High-Pay Placements</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coding Hub Section -->
+    <section id="coding" class="coding-section">
+        <div class="glass-panel">
+            <h2>Elevate Your <span class="gradient-text">Coding Skills</span></h2>
+            <div class="coding-grid">
+                <div class="coding-card">
+                    <div class="coding-card-img"><img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=400" alt="Development"></div>
+                    <div class="coding-card-body">
+                        <i class="fa-brands fa-react"></i>
+                        <h3>Full-Stack Dev</h3>
+                        <a href="https://www.youtube.com/results?search_query=full+stack+roadmap" target="_blank" class="btn-primary">View Track</a>
+                    </div>
+                </div>
+                <div class="coding-card">
+                    <div class="coding-card-img"><img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=400" alt="DSA"></div>
+                    <div class="coding-card-body">
+                        <i class="fa-solid fa-code-branch"></i>
+                        <h3>DSA Track</h3>
+                        <a href="https://www.youtube.com/results?search_query=dsa+roadmap" target="_blank" class="btn-primary">View Track</a>
+                    </div>
+                </div>
+                <div class="coding-card">
+                    <div class="coding-card-img"><img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&q=80&w=400" alt="AI"></div>
+                    <div class="coding-card-body">
+                        <i class="fa-brands fa-python"></i>
+                        <h3>Artificial Intelligence</h3>
+                        <a href="https://www.youtube.com/results?search_query=ai+ml+roadmap" target="_blank" class="btn-primary">View Track</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" class="resources-section">
+        <center>
+            <div class="pyq-hub-image">
+                <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&q=80&w=800" alt="Library" style="width: 100%; max-width: 600px; border-radius: 20px; margin-bottom: 2rem; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+            </div>
+            <h2>Previous <span class="gradient-text">Year Questions</span></h2>
+            <p>Access curated question papers for every engineering year.</p>
+            <br>
+            <div class="pyq-grid">
+                <a href="https://www.google.com/search?q=B.Tech+1st+year+previous+year+question+papers" target="_blank" class="btn-outline">1st Year PYQs</a>
+                <a href="https://www.google.com/search?q=B.Tech+2nd+year+previous+year+question+papers" target="_blank" class="btn-outline">2nd Year PYQs</a>
+                <a href="https://www.google.com/search?q=B.Tech+3rd+year+previous+year+question+papers" target="_blank" class="btn-outline">3rd Year PYQs</a>
+                <a href="https://www.google.com/search?q=B.Tech+4th+year+previous+year+question+papers" target="_blank" class="btn-outline">4th Year PYQs</a>
+            </div>
+        </center>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>SmartLearning Hub</h3>
+                <p>Empowering Engineers.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 SmartLearning Hub. Built for your success.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
